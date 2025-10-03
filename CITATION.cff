@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the article or thesis below."
+authors:
+  - family-names: "Moschen"
+    given-names: "Lucas"
+    orcid: "https://orcid.org/0009-0004-9864-621X"
+
+references:
+  - type: bibtex
+    value: |
+      @article{friedrich2025computational,
+        title={Computational Methods for the Household Assignment Problem},
+        author={Friedrich, Ulf and Moschen, Lucas and M{\"u}nnich, Ralf and Schmidt, Martin},
+        year={2025},
+        note={Preprint},
+        url={https://optimization-online.org/2024/07/computational-methods-for-the-household-assignment-problem/}
+      }
+
+  - type: bibtex
+    value: |
+      @phdthesis{moschen2025optimization,
+        title={Optimization Methods for Geo-Referencing Statistical Information in Spatial Microsimulation},
+        author={Moschen, Lucas},
+        year={2025},
+        note={Doctoral thesis, not yet publicly available}
+      }
