@@ -105,7 +105,7 @@ In this case, the municipality is called "city", it initially has 15000 resident
 
 ### Reproducing the synthetic data sets of the thesis:
 
-The synthetic data sets generated for my doctoral reserach can be reproduced with
+The synthetic data sets generated for my doctoral research can be reproduced with
 
 ```bash
 python3 main_reproduction.py number_dwellings number_households
