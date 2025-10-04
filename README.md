@@ -55,16 +55,16 @@ the type of the data sets that will be generated.
 The parameter file for the data set of residential addresses must contain a list in the form 
 `[list_of_address_features, probabilities, list_means_1, list_standard_deviations_1, list_correlations_1, ..., list_means_N, list_standard_deviations_N, list_correlations_N]`, where:
 
-`list_of_address_features` The list of features that will be considered in the data set, except for the IDs.
+`list_of_address_features` is the list of features that will be considered in the data set, except for the IDs;
 
-`probabilities` List containing the probability of a point to belong to each distribution of the GMM, i.e., 
-of a residential address to belong to each nucleus of the urban model.
+`probabilities` is the list containing the probability of a point to belong to each distribution of the GMM, i.e., 
+of a residential address to belong to each nucleus of the urban model;
 
-`list_means_i` List of means of distribution (nucleus) i.
+`list_means_i` is the list of means of distribution (nucleus) i;
 
-`list_standard_deviations_i` List of standard deviations of distribution (nucleus) i.
+`list_standard_deviations_i` is the list of standard deviations of distribution (nucleus) i;
 
-`list_correlations_i` Correlation matrix of distribution (nucleus) i in "list of lists" (LIL) format.
+`list_correlations_i` is the correlation matrix of distribution (nucleus) i in "list of lists" (LIL) format.
 
 The file with parameters for the workplace data set must have an analogous structure.
 Finally, the parameter files for the household and dwelling data sets must have an analogous structure except 
