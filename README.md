@@ -52,10 +52,10 @@ Firstly, the parameters for the GMM must be in JSON files located at `synthetic_
 The name of these files must be `[name of municipality]_[addresses or hhd or houses or workplaces].json` according to
 the type of the data sets that will be generated.
 
-The parameter file for the data set of residential addresses must contains a list with the form 
+The parameter file for the data set of residential addresses must contain a list in the form 
 `[list_of_address_features, probabilities, list_means_1, list_standard_deviations_1, list_correlations_1, ..., list_means_N, list_standard_deviations_N, list_correlations_N]`, where:
 
-`list_of_address_features` The list of features that will be considered in the data set except for the IDs.
+`list_of_address_features` The list of features that will be considered in the data set, except for the IDs.
 
 `probabilities` List containing the probability of a point to belong to each distribution of the GMM, i.e., 
 of a residential address to belong to each nucleus of the urban model.
@@ -67,8 +67,8 @@ of a residential address to belong to each nucleus of the urban model.
 `list_correlations_i` Correlation matrix of distribution (nucleus) i in "list of lists" (LIL) format.
 
 The file with parameters for the workplace data set must have an analogous structure.
-Finally, the parameter files for the household and dwelling data sets must have an analogous strucuture except 
-for the list `probabilities`, which does not exists in these cases.
+Finally, the parameter files for the household and dwelling data sets must have an analogous structure except 
+for the list `probabilities`, which does not exist in these cases.
 
 Then, the synthetic data sets can be generated with
 
@@ -92,7 +92,7 @@ at the sub-directory `synthetic_data_generation`.
 
 ### Example:
 
-With the parameter files at the sub-directory `synthetic_data_generation/data/GMM_parameters`, synthetic data sets with 20000 dwellings
+With the parameter files in the sub-directory `synthetic_data_generation/data/GMM_parameters`, synthetic data sets with 20000 dwellings
 and 18000 households can be generated with a GMM with 4 nuclei by running
  
 ```bash
@@ -100,7 +100,7 @@ python3 main.py city 15000 0.3 20000 18000
 ```
 
 at the sub-directory `synthetic_data_generation`.
-In this case, the municipality is called "city", it has initially 15000 residential addresses and a number of workplaces corresponding to 
+In this case, the municipality is called "city", it initially has 15000 residential addresses and a number of workplaces corresponding to 
 30% of the number of addresses.
 
 ### Reproducing the synthetic data sets of the thesis:
