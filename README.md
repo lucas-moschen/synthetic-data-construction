@@ -1,9 +1,9 @@
 # Procedures for Data Construction
 
 This repository contains implementations of the procedures for data construction used in the context of my doctoral research.
-The folder `subsets_real_data` have the procedure to obtain subsets from the real-world data sets as described in Section 4.1.4
+The folder `subsets_real_data` has the procedure to obtain subsets from the real-world data sets as described in Section 4.1.4
 of the thesis.
-The folder `synthetic_data_generation` contains the implementation of the procedure that consider Gaussian mixture models (GMMs) 
+The folder `synthetic_data_generation` contains the implementation of the procedure that considers Gaussian mixture models (GMMs) 
 and urban models to generate synthetic data sets, as described in Section 4.2.
 
 ## Installation
